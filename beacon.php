@@ -142,7 +142,7 @@ if ( sizeof($request_array['events']) > 0 ) {
 
         $data = [
             'replyToken' => $reply_token,
-            'messages' => [$jsonFlex]
+            //'messages' => [$jsonFlex]
         ];
 
         print_r($data);
@@ -172,7 +172,7 @@ function send_reply_message($url, $post_header, $post_body)
     $result = curl_exec($ch);
     curl_close($ch);
 
-    //return $result;
+    return $result;
 }
 
 ?>
