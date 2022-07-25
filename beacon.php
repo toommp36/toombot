@@ -123,7 +123,7 @@ $jsonFlex = [
             "action" => [
               "type" => "uri",
               "label" => "View Details",
-              "uri" => "https:/youtube.com/"
+              "url" => "https:/youtube.com/"
             ]
           ]
         ]
