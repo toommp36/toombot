@@ -172,7 +172,7 @@ function send_reply_message($url, $post_header, $post_body)
     $result = curl_exec($ch);
     curl_close($ch);
 
-    return $result;
+    //return $result;
 }
 
 ?>
